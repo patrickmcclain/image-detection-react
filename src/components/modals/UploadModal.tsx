@@ -16,6 +16,13 @@ export default function UploadModal(props: any) {
   const [analyze, setAnalyze] = useState(true);
   const fileInput = useRef(null);
 
+  function resetState() {
+    setUrl("");
+    setSelectedFile(null);
+    setLabel("");
+    setAnalyze(true);
+  }
+
   const handleFileInput = (e: any) => {
     console.log(e.target.files[0])
     const file = e.target.files[0];
@@ -36,6 +43,7 @@ export default function UploadModal(props: any) {
         props.onUpload(res.data.objects_identified.map((item: any) => item.label));
       }
 
+      resetState();
       props.close();
     } catch (err) {
       alert("File Upload Error");
