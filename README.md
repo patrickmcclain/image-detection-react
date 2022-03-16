@@ -1,6 +1,13 @@
-# Image Detection React
+# HEB Image Object Detection React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web app allows you to upload images (or download via url), analyze and label objects detected, and search via object lables.
+
+### `Back End Node.js Web Server`
+
+To run the backend server, head over to the
+[image-detection](https://github.com/patrickmcclain/image-detection) project.
+
+<br></br>
 
 ## Available Scripts
 
