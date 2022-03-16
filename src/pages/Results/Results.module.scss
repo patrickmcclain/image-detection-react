@@ -1,0 +1,28 @@
+.Results {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100vw - 22.2rem);
+  margin: auto;
+  margin-top: 4.375rem;
+  padding-bottom: 4.375rem;
+  gap: 2rem;
+  padding-left: 0.5rem;
+  flex-grow: 1;
+}
+
+.image {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 3%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+}

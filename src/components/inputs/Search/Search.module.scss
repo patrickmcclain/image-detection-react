@@ -1,0 +1,11 @@
+.searchInnerWrapper {
+  overflow-x: scroll;
+}
+
+.itemWrapper {
+  height: 2rem;
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  width: fit-content;
+}

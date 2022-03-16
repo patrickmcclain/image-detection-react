@@ -1,0 +1,31 @@
+.TopNav {
+  height: 4.375rem;
+  min-height: 4.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TopNavInnerWrapper {
+  display: flex;
+  margin: 0 3.125rem;
+}
+
+.logoAndSearchWrapper {
+  display: flex;
+  flex-grow: 1;
+  gap: 1.5rem;
+  margin-right: 1.9rem;
+}
+
+.itemWrapper {
+  height: 2rem;
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  width: fit-content;
+}
+
+.img {
+  height: 2.1rem;
+}
